@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Chessboard.js Example</title>
+    <link rel="stylesheet" href="./chessboard.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <div id="board1" style="width: 400px"></div>
+
+    <script src="chessboard.js"></script>
+    <script>
+      var board = ChessBoard('board1', {
+        draggable: true,
+        dropOffBoard: 'trash',
+        sparePieces: true
+      });
+    </script>
+  </body>
+</html>
+
+
+
+
+
